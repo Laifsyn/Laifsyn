@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Laifsyn
-- 👀 I’m interested in ... learning new things and figure out solutions
-- 🌱 I’m currently learning ... on how to properly write a README.md and programming basics
+- 👀 I’m interested in ... learning new things and Rust
+- 🌱 I’m currently learning ... on how to write an UI and backend
 - 💞️ I’m looking to collaborate on ... 
 - 📫 How to reach me ... GitHub (I guess?)
 
