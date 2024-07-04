@@ -1,12 +1,12 @@
 
 # __**Why?**__
 
-    I had some "Portfolios" I had to submit, optionally as a single word document (Alternatively into a zipped file). In a nutshell, I had to copy and
+  I had some "Portfolios" I had to submit, optionally as a single word document (Alternatively into a zipped file). In a nutshell, I had to copy and
   paste the relevant (by the time of this writing) `.java` source files into the submit-able document. Pasting VSCode's text was reliably translated
   into formatted Word Text, so I piggybacked from VSCode's `.md` previewer to make a Copy-Paste/able content which could seamlessly get pasted with into
   the word document.
 
-# __**What it does**__
+# __**What it does?**__
 
   Prompts user to select a folder, then reads all the specified `*.fileType` (while recursively going into each sub-folder at "root") inside the selected folder,
   and writes to a `.md` file as `root/root-summary.md`, while providing a Header at X nested-level depending on how many folders were recursively
