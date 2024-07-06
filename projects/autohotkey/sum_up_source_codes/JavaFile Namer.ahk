@@ -6,9 +6,10 @@ main() {
     directory := get_directory()
     if !directory
         return
-    files := loop_files(directory, "*.java", "FR")
+    java_files := loop_files(directory, "*.java", "FR")
     ; loop_append_java_file_name(files, [enclose_in_commented_stars, trim_appended_commented_file_name])
-    write_hierarchy_summary(files)
+    ; c_files := loop_files(directory, "*.c", "FR")
+    write_hierarchy_summary(java_files)
 }
 
 loop_files(directory, file_pattern, mode) {
@@ -160,15 +161,16 @@ write_hierarchy_summary(files) {
     SplitPath(Trim(root, "\"), &root_dir_name)
     mapped_files_in_root[root_dir_name] := mapped_files_in_root["root"]
     mapped_files_in_root.Delete("root")
-    A_clipboard := Trim(print_hierarchy(mapped_files_in_root), "`r`n`t *") "`r`n"
+    A_Clipboard := md_summary := Trim(hierarchy_as_md_str(mapped_files_in_root), "`r`n`t *") "`r`n"
     file := FileOpen(root "\" root_dir_name "-summary.md", "w")
-    len := file.Write(A_clipboard)
+    len := file.Write(md_summary)
     file.Length := len
     file.close()
     msgbox "DONE!"
+    return md_summary
 }
 
-print_hierarchy(root_files, nest_level := 1) {
+hierarchy_as_md_str(root_files, nest_level := 1) {
     static md_line := "`r`n`r`n***************************************************************`r`n`r`n"
     TrimPath := (path) => Trim(path, "`r`n `t\")
     repeat_numeral := repeat_string("#", nest_level)
@@ -194,7 +196,7 @@ print_hierarchy(root_files, nest_level := 1) {
                 }
                 continue
             }
-            string .= print_hierarchy(Map(key, _map), nest_level + 1)
+            string .= hierarchy_as_md_str(Map(key, _map), nest_level + 1)
         }
     }
     return string
