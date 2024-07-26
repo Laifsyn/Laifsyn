@@ -36,12 +36,15 @@ I've as lately been particularly interested on back-end related topics. I've bee
 (and hopefully soon with async tracing), code architecture and design, write of robusts tests, develop Domain Driven Design (DDD in short), 
 as well as familiarizing myself with the sane ways to make swift deployments of new releases.
 
+Major Topics I'm still haven't gotten to properly understand yet are among it; managing encrypted communication, and properly exposing a public API. 
+(Plus others that I might not know yet)
+
 ## Programming Languages
 
-I currently feel pretty comfortable writing in Rust. I feel I'm lacking in the UI section, but I believe I should be able to tackle this issue with
-some practice
+I currently feel pretty comfortable writing in Rust. My UI skills are pretty lacking, but I've had set my aims on either 
+[Dioxus](https://dioxuslabs.com/), [Flutter-rs](https://github.com/flutter-rs/flutter-rs) and [egui](https://www.egui.rs/)
+due to their advertisements of being multi-platform compatible which includes Web Assembly.
 
-Major Topics I'm still missing couldn't get started in yet is managing an encrypted communication, and properly exposing a public API.
 
 # Small Personal Projects
 
