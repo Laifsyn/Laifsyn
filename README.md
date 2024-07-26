@@ -4,13 +4,18 @@
 - 💞️ I’m looking to collaborate on ... 
 - 📫 How to reach me ... GitHub (I guess?)
 
+I found myself enjoying socializing overall. I believe knowing different perspectives can help me to 
+come up with different ideas that wouldn't have been possible with just me alone.
 
 # Summary of Experiences (Of varying levels of expertise)
+All experience has been mostly been obtained through exploratory learning. I still think there's more to learn
+from actual experts, and still lot's of space to improve from practical experience.
   * Programming in General
     * Back-End
     * DevOps
     * CI
     * Database
+    * Writing Documentation
     * User Interface
     * Data Structures
     * Code Architecture and Design
@@ -18,6 +23,12 @@
     * Rust
     * Java
     * Scripting Languages in general (Mainly AHKv2)
+    * English & Chinese
+
+## Frontend 
+
+I have some experience designing UIs which I've overdoing university projects, but I still lack any formal education related
+to UI Design outside of "Make it as user-friendly as posssible".
 
 ## Back-End
 
