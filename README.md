@@ -23,7 +23,7 @@ from actual experts, and still lot's of space to improve from practical experien
     * Rust
     * Java
     * Scripting Languages in general (Mainly AHKv2)
-    * English & Chinese
+    * Spanish > English > Chinese
 
 ## Frontend 
 
