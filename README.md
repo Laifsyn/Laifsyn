@@ -67,11 +67,13 @@ batteries(which is good).
 
 There's a handful of Web Frameworks in Rust. I've researched a bit about each of them, and among them
 exists [Rocket][git:rocket], [Actix-Web][git:actix-web] as well as [Axum][git:axum], which was built
-on top of `Hyper`. I currently chose to learn `Axum` mainly because of its modularity promises. 
+on top of `Hyper`, A Ruby's Rust Variant of Rails called [Loco][git:loco]. I currently chose to learn `Axum` mainly because of its modularity promises. 
 A disadvantage of using `Axum` that I have considered was the not so straightforward way to generate
 type-safe OpenApi documentation. A detail which differs from frameworks that defines endpoints via macros 
 like `Actix` or [Salvo-rs][homepage:salvo] which seems to simplify the Docs generation of the functions.
 
+
+[git:loco]: https://github.com/loco-rs/loco "Framework built on top of Axum"
 [homepage:salvo]: https://salvo.rs/ "Salvo-rs Homepage"
 [git:rocket]: https://github.com/rwf2/Rocket 
 [git:actix-web]: https://github.com/actix/actix-web 
@@ -131,11 +133,11 @@ often fresh ideas that often times would be ignored had you chosen to brute forc
 - Records are really awesome for Not-mutable objects/structs as well as emulating enums when you use `sealed Interfaces.
 - I don't know why it was hard for me to understand the difference between `abstract Class` vs `Class`.
 - Maybe Rust would be more fitted to teach low level Systems Programming Data Structs than Java.
-- Circular References mistakes feels awry easy to commit in Java since there's no clear Owner (also no [`Weak`](https://doc.rust-lang.org/std/rc/struct.Weak.html "RC Weak Reference") reference).
+- Circular References mistakes feels like an easy mistake to do in Java.
 - I disliked Eclipse's IDE.
 - Why so many build tools? (I still can't get to differentiate advantages of Maven vs Gradle)
-- Use Intelli's IDE to get started in java.
-- Don't accidentally 'mistook' Intelli's paid IDE vs the free Community Version button hidden below by scrolling further down (I honestly thought I was seeing the page's Footend and not another download section).
+- Use Intelli's IDE if you're getting started in java.
+- IntelliJ's Community Edition (Free version of IntelliJ) exists.
 # Small Personal Projects
 
 These projects are some small projects I had done. They should be solution for small niche problems, where... chances are, there's way better alternatives.
