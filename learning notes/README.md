@@ -11,6 +11,7 @@ Concepts Synthesis
   - [Compiled vs Interpreted](#compiled-vs-interpreted)
   - [Error Handlings (Strategies)](#error-handlings-strategies)
   - [Composition](#composition)
+  - [Concurrency](#concurrency)
 
 
 # What's this
@@ -100,7 +101,17 @@ to [inheriting the banana with the underlying jungle][GorillaAndJungle] just pla
 Worth to share, but if you can, make your inherited struct final unless there's a really good reason to want to let the possibility
 of extending your new class/struct.
 
+## Concurrency
 
+> Learn how the language's Concurrency model works and or is about + (of course) its tradeoffs.
+
+Before delving into a language too deep, you would want to first know or consider whether you can do concurrency, and or whether you need
+of parallel or concurrent processing. Alternatively you can abuse OS-Threads, but that's a orthogonal of properly written Async program.
+
+You can research about your language's:
+- Synchronization strategies (i.e Mutex, Semaphores, Channels, etc. are ways to avoid data racing). 
+- Whether you need to make use of OS-Threads to get emulate async programming.
+- Ways you could deadlock your application.
 
 [P-DD]: Programming%20-%20Design%20Patterns.md
 
