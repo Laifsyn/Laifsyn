@@ -3,19 +3,32 @@
 - 📫 How to reach me ... GitHub (I guess?)
 <!-- - 💞️ I’m looking to collaborate on ... Interesting projects -->
 
-Currently learning:
-  - Rust
-  - Java
-  - Python
-    - Manim
-  - Javascript/Svelte
 
-Excited for:
-  - Rust and Svelte
-  - Learning new things
+Currently a Student in Systems Engineering. I tend to like to be able to put into words my decisions because it often express that they have proper meanings.
 
-I enjoy to be able to socialize. Learning different perspectives is interesting and help me to 
-come up with different ideas that often wouldn't have been possible with just my experience alone.
+
+# About What I Know
+
+I have knowledge in low level programming (baring off ASM) and the thought process it requires, Rust and couple of fairly High Level Languages like Python, javascript and Java. 
+
+I recognize and understand nuances and trade-offs for patterns like Composition, Dependency Inversion/Injection and other pretty common design strategies meant to make code less of a pain.
+
+I'm fairly more experienced in Rust, and then next comes Python and Java. In `Java`, I've practiced tokenization of user's input, simple parsing and some basic GUIs. In `Python` I had tried to apply some learnings from `Rust` like typing, data driven structures and I have made use of the `Manim` library to create some animations meant for university assignments.
+
+on the side I had been working on `Tauri` with `Svelte` as frontend to design an application to piggyback from the whole javascript ecosystem and learn html/js/css and betting on the vision Svelte has for reactivity. I have some basic knowledge about mounting up a HTTP server with `Rust`'s `Axum` and `Actix-web`, writing of parsers using `nom`, and I learned some about embedding `lua` to rust with `mlua`.
+
+# About me
+
+I'm able to manage spanish as it is my mother tongue, english and chinese (more specifically Mandarin)
+
+Personal interests:
+- Cooking (as hobby).
+- Music.
+- Learning new things.
+- Programming (of course).
+- Reading.
+- Think out solutions for problems.
+  
 
 
 <!---
