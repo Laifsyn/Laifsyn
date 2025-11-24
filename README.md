@@ -1,10 +1,10 @@
 - 👋 Hi, I’m @Laifsyn
 - 👀 I’m interested in ... learning new things and cooking.
-- 📫 How to reach me ... GitHub (I guess?)
+- 📫 How to reach me ... GitHub (I guess?), Discord: `.laif`
 <!-- - 💞️ I’m looking to collaborate on ... Interesting projects -->
 
 
-Currently a Student in Systems Engineering. I tend to like to be able to put into words my decisions because it often express that they have proper meanings.
+Currently a Student in Systems Engineering. I think being able to word out my decisions means that I have a grasp over the thought process.
 
 
 # About What I Know
